@@ -4,8 +4,25 @@
 <style>
 
   h2.red-text {
-    color:black;
-  }
+    color:darkblue;
+  } 
+
+.profile-link {
+  display: inline-block;
+}
+
+.profile-pic {  
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%); 
+  
+  transition: filter 0.3s, box-shadow 0.3s;
+  -webkit-transition: filter 0.3s, -webkit-filter 0.3s, box-shadow 0.3s;
+}
+.profile-link:hover .profile-pic, 
+.profile-link:focus .profile-pic {
+  -webkit-filter: none;
+  filter: none;
+}
 
 </style>
 </head>
@@ -20,7 +37,7 @@
                 <td width="30%">
                     <!-- <img width="300" src="./index_files/mypic.jpeg" border="0"> -->
                     <!-- <img width="300" src="./index_files/mypic2.jpg" border="0"> -->
-                    <img style="border: 1px solid #ddd; border-radius: 10%" width="250" src="./index_files/neisser_ale.png" border="0">
+                    <img style="border: 1px solid #ddd; border-radius: 10%" width="250" src="./files/neisser_ale.png" border="0">
                 </td>
                 <td>
                     <font color="black" face="helvetica , ariel, &#39;sans serif&#39;" size="7"> 
@@ -33,7 +50,8 @@
                         Lima, Peru<br><br>
                         [<a href="https://github.com/yalonzo" border="0">GitHub</a>]
                         [<a href="https://pe.linkedin.com/in/neisseralonzoale" border="0">LinkedIn</a>]
-                        [<a href="index_files/cv_naa.pdf" border="0">Resume/CV</a>]<br>
+                        [<a href="http://directorio.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do;jsessionid=5ddf3951b6aaf943d7791c7ef7f4?id_investigador=192135" border="0">CTI VITAE</a>]
+                        <!--[<a href="index_files/cv_naa.pdf" border="0">Resume/CV</a>]<br>-->
                     </font>
                 </td>
             </tr>
@@ -78,13 +96,13 @@
 
  <h2 class="red-text">EXPERIENCE</h2>
  <font face="helvetica, ariel, &#39;sans serif&#39;">
-    <table cellspacing="15">
+    <table cellspacing="10">
         <tbody>
             <tr>
                 <td align=center>
                 <!-- height="74" -->
                     <!-- <center> -->
-                    <img width="185" align="center" src="./index_files/neurometrics_2.png" border="0">
+                    <a class="profile-link"><img class="profile-pic"  width="185" align="center" src="./files/neurometrics_2.png" border="0"></a>
                     <!-- </center> -->
                 </td>
                 <td>
@@ -100,7 +118,7 @@
                 <td align=center>
                 <!-- height="74" -->
                     <!-- <center> -->
-                    <img width="190" align="center" src="./index_files/fablab_esan.png" border="0">
+                    <a class="profile-link"><img class="profile-pic"  width="190" align="center" src="./files/fablab_esan.png" border="0"></a>
                     <!-- </center> -->
                 </td>
                 <td>
@@ -116,7 +134,7 @@
                 <td align=center>
                 <!-- height="74" -->
                     <!-- <center> -->
-                    <img width="200" align="center" src="./index_files/esan_2.jpeg" border="0">
+                    <a class="profile-link"><img class="profile-pic"  width="200" align="center" src="./files/esan_2.jpeg" border="0"></a>
                     <!-- </center> -->
                 </td>
                 <td>
@@ -141,7 +159,7 @@
                     <td align=center>
                     <!-- height="74" -->
                         <!-- <center> -->
-                        <img width="200" align="center" src="./index_files/esan_2.jpeg" border="0">
+                        <a class="profile-link"><img class="profile-pic"  width="200" align="center" src="./files/esan_2.jpeg" border="0"></a>
                         <!-- </center> -->
                     </td>
    
@@ -167,7 +185,7 @@
                  <td align=center>
                  <!-- height="74" -->
                      <!-- <center> -->
-                     <img width="200" align="center" src="./index_files/esan_2.jpeg" border="0">
+                    <a class="profile-link"><img class="profile-pic"  width="200" align="center" src="./files/esan_2.jpeg" border="0"></a>
                      <!-- </center> -->
                  </td>
 
@@ -192,7 +210,7 @@
                     <td align=center>
                     <!-- height="74" -->
                         <!-- <center> -->
-                        <img width="200" height="100" align="center" src="./index_files/eyes_detection.jpeg" border="0">
+                        <img width="200" height="100" align="center" src="./files/eyes_detection.jpeg" border="0">
                         <!-- </center> -->
                     </td>                   
                     <td>
@@ -211,7 +229,7 @@
                 <tr>
                     <td align=center>
                     <!-- height="74" -->
-                        <img width="200" height="100" align="center" src="./index_files/face_recognition.png" border="0">
+                        <img width="200" height="100" align="center" src="./files/face_recognition.png" border="0">
                             </td>
                     <td>
                         <span style="font-size: 14pt;">
@@ -242,7 +260,7 @@
                         <td align=center>
                         <!-- height="74" -->
                             <!-- <center> -->
-                            <img width="200" align="center" src="./index_files/esan_2.jpeg" border="0">
+                            <a class="profile-link"><img class="profile-pic"  width="200" align="center" src="./files/esan_2.jpeg" border="0"></a>
                             <!-- </center> -->
                         </td>
                         <td>
@@ -258,7 +276,7 @@
                         <td align=center>
                         <!-- height="74" -->
                             <!-- <center> -->
-                            <img width="185" align="center" src="./index_files/pronabec.png" border="0">
+                            <a class="profile-link"><img class="profile-pic" width="185" align="center" src="./files/pronabec.png" border="0"></a>
                             <!-- </center> -->
                         </td>
                         <td>
@@ -274,7 +292,7 @@
         
         </p><hr size="2" align="left" noshade="">
 
-        <h2>My Philosophy</h2>
+        <h2 class="red-text">My Philosophy</h2>
         <i><b>"Al toque roque, al puchu ruchu"</b></i><br>
         Do it giving your best.
         
